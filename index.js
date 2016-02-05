@@ -49,7 +49,7 @@ function upload(imageName) {
 
 function sendToSlack(imageUrl) {
     var slack = new Slack();
-    slack.setWebhook('https://hooks.slack.com/services/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');
+    slack.setWebhook(process.env.SLACK_WEBHOOK_URL);
 
     var slackMessage = {
         channel: "#random",
