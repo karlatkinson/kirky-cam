@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "easyimage": "^2.1.0",
-    "ospry": "^1.0.4"
+    "moment": "^2.11.2",
+    "ospry": "^1.0.4",
+    "slack-node": "^0.1.7"
   }
 }
